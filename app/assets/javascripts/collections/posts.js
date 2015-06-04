@@ -1,5 +1,7 @@
 BackboneRailsJournal.Collections.Posts = Backbone.Collection.extend({
 
-  model: BackboneRailsJournal.Models.Post
+  url: "/posts",
+  model: BackboneRailsJournal.Models.Post,
+  getOrFetch: function(id) {}
 
 });
